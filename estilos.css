@@ -1,0 +1,12 @@
+table, tr,td{ 
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.imEven {
+    background: greenyellow;
+}
+
+.imOdd {
+    background: crimson;
+}
