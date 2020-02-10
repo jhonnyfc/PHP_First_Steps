@@ -28,5 +28,5 @@
     $cadena = file_get_contents("05_DymTableColor.html");
     $trozos = explode("#tabla#", $cadena);
     
-    echo $trozos[0] . $tabla . $trozos[2];
+    echo $trozos[0] . $tabla . $trozos[1];
 ?>
