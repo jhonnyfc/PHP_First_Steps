@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejecicio 7 Pagina de Introdruccion de datos</title>
+    </head>
+    <body>
+        <div id = 'container'>
+            <div id = 'titulo'>
+                <h1> Seleccione su configuración preferida</h1>
+            </div>
+            <div id = 'cuerpo'>
+                <form action="13_control.php" method="GET">
+
+                    <label for="camp1"> Numero de Lineas </label>
+                        <input type="number" name="var1" id="camp1"><br><br>
+
+                    <label for = 'areaTex'> Texto a Introduccir</label><br>
+                        <!--<input type="text" name="var2" id="camp2">-->
+                        <textarea id = 'areaTex' name="var2" rows ="5" cols="15"></textarea><br><br><br>
+
+                    <label for="camp3"> Color 1</label>
+                        <input list = 'color1' name = 'var3' id = 'camp3'><br>
+                        <datalist id='color1'>
+                            <option value = "red">
+                            <option value ="green">
+                            <option value ="blue">
+                            <option value ="brown">
+                            <option value ="gray">
+                            <option value = "yellow">
+                        </datalist><br><br>
+
+                    <label for="camp4"> Color 2</label>
+                        <input list = 'color2' name = 'var4' id = 'camp4'><br>
+                        <datalist id='color2'>
+                            <option value = "red">
+                            <option value ="green">
+                            <option value ="blue">
+                            <option value ="brown">
+                            <option value ="gray">
+                            <option value = "yellow">
+                        </datalist>
+
+                    <input type= "submit" value="Confirm">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
