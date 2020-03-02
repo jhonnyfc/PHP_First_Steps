@@ -4,6 +4,8 @@
 
     $data = "";
 
+    $estado = 0;
+    
     if (isset( $_GET["var1"]) && isset( $_GET["var2"]) && isset( $_GET["var3"]) && isset( $_GET["var4"]) ){
         $val1 = $_GET["var1"];
         $val2 = $_GET["var2"];

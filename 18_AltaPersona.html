@@ -1,0 +1,51 @@
+<html lang="en">
+    <head>
+        <style>
+            * {margin:0; padding: 0; box-sizing: border-box;}
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejecicio 18 Alta Persona</title>
+    </head>
+    <body>  
+        <div id = 'contAlta' style="background: rgba(255, 47, 57, 0.384);">
+            <div id = 'cabeceraRegistro'>
+                <h1> Formulario de Registro</h1>
+            </div>
+            <div id = 'cuerpoRegistro'>
+                <form action="18_handlerRegistro.php" method="POST">
+
+                    <label for="camp1">Nombre: </label>
+                    <input type="text" name="nombre" id="camp1" required><br><br>
+
+                    <label for="camp2">Primer Apellido: </label>
+                    <input type="text" name="apellido1" id="camp2" required>
+
+                    <label for="camp3">Segundo Apellido: </label>
+                    <input type="text" name="apellido2" id="camp3" placeholder="Segundo Apellido" required><br><br>
+                    
+                    <label for="camp4">Direccion: </label>
+                    <input type="text" name="direccion" id="camp5" required><br><br>
+                    
+                    <label for="camp5">Poblacione: </label>
+                    <input type="text" name="poblacion" id="camp5" required><br><br>
+
+                    <label for="camp6">Provincia: </label>
+                    <input type="text" name="provincia" id="camp6" required><br><br>
+
+                    <label for="camp7">Telefono1: </label>
+                    <input type="number" name="telefono1" id="camp7" required><br><br>
+
+                    <label for="camp8">Telefono2: </label>
+                    <input type="number" name="telefono2" id="camp8" required><br><br>
+
+                    <input type="reset" value="lol">
+                    
+                    <input type= "submit" value="Confirm">
+                </form>
+            </div>
+
+            <a href="18_Menu.html">Go Back</a>
+        </div>
+    </body>
+</html>
